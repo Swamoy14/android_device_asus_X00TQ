@@ -621,4 +621,7 @@
         <item>com.asus.zenparts.TouchKeyHandler</item>
     </string-array>
 
+    <!-- If true, the camera will be used more often. -->
+    <bool name="config_adaptive_sleep_available">false</bool>
+
 </resources>
