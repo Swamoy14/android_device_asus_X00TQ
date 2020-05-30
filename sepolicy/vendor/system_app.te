@@ -28,3 +28,7 @@ allow system_app sysfs_dclicknode:file { getattr read write open };
 allow system_app sysfs_gesture_node:file { getattr read write open };
 allow system_app sysfs_leds:dir search;
 allow system_app sysfs_leds:file { open getattr write };
+
+# GPU/CPU Boosts
+set_prop(system_app, boosts_prop);
+get_prop(system_app, boosts_prop);
