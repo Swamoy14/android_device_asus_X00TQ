@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ColtOS stuff
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := lineage_X00T
+PRODUCT_NAME := colt_X00T
 PRODUCT_MODEL := Zenfone Max Pro M1
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
@@ -54,3 +54,8 @@ PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.vendor.product.device \
     ro.vendor.product.model \
     ro.vendor.product.name
+
+# ColtOS stuffs
+TARGET_BOOT_ANIMATION_RES := 1080x2160
+COLT_BUILD_TYPE := Official
+COLT_DEVICE_MAINTAINER := @SaurabhCharde

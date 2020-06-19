@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00T.mk
+    $(LOCAL_DIR)/colt_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-      lineage_X00T-userdebug
+      colt_X00T-userdebug
