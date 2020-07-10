@@ -47,8 +47,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # The following system and vendor props will be set by vendor init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.device \
-    ro.product.model \
-    ro.product.name
+    ro.product.model
 
 PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.vendor.product.device \
