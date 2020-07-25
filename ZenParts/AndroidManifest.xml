@@ -29,6 +29,7 @@
     <application
         android:label="@string/advanced_settings"
         android:supportsRtl="true"
+        android:excludeFromRecents="true"
         android:theme="@style/CustomOptionsTheme">
         <receiver
             android:name=".BootReceiver"
@@ -46,6 +47,7 @@
         <activity
             android:name="com.asus.zenparts.DeviceSettingsActivity"
             android:exported="false"
+            android:excludeFromRecents="true"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
             <intent-filter>
@@ -86,6 +88,7 @@
         <activity
             android:name=".kcal.KCalSettingsActivity"
             android:exported="false"
+            android:excludeFromRecents="true"
             android:theme="@style/CustomOptionsTheme"
             android:label="@string/advanced_settings_kcal">
             <intent-filter>
@@ -138,6 +141,7 @@
         <activity
             android:name=".TouchscreenGestureSettings"
             android:label="@string/touchscreen_gesture_settings_title"
+            android:excludeFromRecents="true"
             android:theme="@style/CustomOptionsTheme">
         </activity>
     </application>
