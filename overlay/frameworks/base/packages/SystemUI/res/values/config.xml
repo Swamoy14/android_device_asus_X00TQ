@@ -49,4 +49,9 @@ customized
     <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,cell,bt,hotspot,airplane,flashlight,weather,rotation,location,night,dark,cpuinfo,battery,screenshot,fpsinfo
+    </string>
+
 </resources>
