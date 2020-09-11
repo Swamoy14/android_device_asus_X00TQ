@@ -150,7 +150,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     libxml2 \
     libgui_vendor \
-    Snap
+    GoogleCameraGo
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
