@@ -474,10 +474,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtinyxml2
 
-# Touch HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.X00T
-
 # USB
 PRODUCT_PACKAGES += \
 	android.hardware.usb@1.0-service.X00T
