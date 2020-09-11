@@ -608,20 +608,6 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
-    <!-- Device Handler -->
-    <string name="config_alternativeDeviceKeyHandlerLib" translatable="false">/system/priv-app/ZenParts/ZenParts.apk</string>
-    <string name="config_alternativeDeviceKeyHandlerClass" translatable="false">com.asus.zenparts.KeyHandler</string>
-
-    <!-- Paths to the libraries that contain device specific key handlers -->
-    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system/priv-app/ZenParts/ZenParts.apk</item>
-    </string-array>
-
-    <!-- Names of the key handler classes -->
-    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>com.asus.zenparts.TouchKeyHandler</item>
-    </string-array>
-
     <!-- If true, the camera will be used more often. -->
     <bool name="config_adaptive_sleep_available">false</bool>
 
